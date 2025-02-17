@@ -4,8 +4,10 @@ class DevelopmentConfig():
     MYSQL_USER = 'root'
     MYSQL_PASSWORD = ''
     MYSQL_DB = 'inventory'
+    #MYSQL_PORT = '3306'
+    
 
 
 config = {
-    'development': DevelopmentConfig
+    'production': DevelopmentConfig
 }
